@@ -1,21 +1,19 @@
-.icon{
-    width: 30px;
-    height: 30px;
-    display: grid;
-    place-items: center;
-    box-sizing: content-box;
-    padding: 3px;
-    border-radius: 50%;
+%icon {
+  width: 35px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  padding: 3px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  &:hover {
+    background: #d8dbdd;
     transition: all 0.3s;
-    cursor: pointer;
-    &:hover{
-        background: #d8dbdd;
-        transition: all 0.3s;
-    }
+  }
 }
 
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+%flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
